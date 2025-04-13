@@ -1,6 +1,6 @@
 # Using the this [API](https://deckofcardsapi.com/) that simulates 
 # dealing a deck of cards, write a program that "deals" (prints out) 5 cards.
-#  Firstly you need to shuffle
+# Firstly you need to shuffle
 
 import requests
 
