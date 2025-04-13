@@ -1,7 +1,8 @@
-Deck ID: 6pkaqvg420cu
+Deck ID: roz21x7dzztd
 Dealt cards:
-7 of CLUBS
-6 of SPADES
-QUEEN of HEARTS
-3 of CLUBS
-JACK of HEARTS
+ACE of SPADES
+3 of SPADES
+9 of CLUBS
+JACK of SPADES
+9 of HEARTS
+Congratulations! You have a pair!
