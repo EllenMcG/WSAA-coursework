@@ -1,8 +1,8 @@
-Deck ID: roz21x7dzztd
+Deck ID: owyxphwpwlnk
 Dealt cards:
-ACE of SPADES
-3 of SPADES
-9 of CLUBS
-JACK of SPADES
-9 of HEARTS
+7 of CLUBS
+3 of DIAMONDS
+7 of HEARTS
+10 of DIAMONDS
+8 of HEARTS
 Congratulations! You have a pair!

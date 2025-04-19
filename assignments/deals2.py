@@ -10,8 +10,10 @@ import requests
 def check_hand(cards, file):
     '''
     Check the hand for special combinations like pairs, triples, straights, and flushes.
+
     Parameters:
         cards (list): A list of dictionaries representing the dealt cards.
+        file (file object): The file to write the results to.
 
     Returns:
         None
@@ -20,7 +22,7 @@ def check_hand(cards, file):
     values = [card['value'] for card in cards]
     suits = [card['suit'] for card in cards]
 
-    # ACE was considered as 1
+    # ACE was considered as 1, not 1 (low value) or 11 (high value)
     value_map = {
         "ACE": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8,
         "9": 9, "10": 10, "JACK": 11, "QUEEN": 12, "KING": 13

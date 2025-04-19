@@ -1,7 +1,7 @@
-Deck ID: 4oxlmbxftklf
+Deck ID: 54svej6gjmmr
 Dealt cards:
-7 of CLUBS
-4 of DIAMONDS
-2 of SPADES
-7 of DIAMONDS
-4 of HEARTS
+2 of HEARTS
+KING of DIAMONDS
+5 of SPADES
+10 of DIAMONDS
+KING of SPADES

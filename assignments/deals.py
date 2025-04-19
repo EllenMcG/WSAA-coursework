@@ -19,8 +19,6 @@ response = requests.get(draw_url)
 if response.status_code == 200:
     cards = response.json()['cards']
     print("Five dealt cards:")
-    #for card in cards:
-     #   print(f"{card['value']} of {card['suit']}")
     with open("five_dealt_cards.txt", "w") as file:
         file.write(f"Deck ID: {deck_id}\n")
         file.write("Dealt cards:\n")
