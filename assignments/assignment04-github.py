@@ -3,3 +3,7 @@
 # The program should then replace all the instances of the text "Andrew" with your name (Ellen) and 
 # push to Github.  
 
+from config import apikeys as cfg
+import requests
+
+apikey = cfg["github_key"]
