@@ -4,6 +4,13 @@
 # push to Github.  
 
 from config import apikeys as cfg
+from github import Github
 import requests
 
 apikey = cfg["github_key"]
+url = 'https://api.github.com/repos/EllenMcG/WSAA-coursework/contents/assignments'
+
+
+response = requests.get(url, auth=('token', apikey))
+if response.status_code == 200:
+    print("Success!")
